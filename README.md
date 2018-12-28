@@ -1,4 +1,6 @@
-= BASEEX =
+= TEMPLATEPROJ =
+
+[![Build Status](https://travis-ci.org/zhenyatnk/templateproj.svg?branch=master)](https://travis-ci.org/zhenyatnk/templateproj)
 
 == Setting Up the Environment ==
 
