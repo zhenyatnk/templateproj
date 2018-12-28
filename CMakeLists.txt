@@ -23,10 +23,9 @@ set(CMAKE_CONFIGURATION_TYPES
     Debug RelWithDebInfo
     CACHE INTERNAL "Allowed configuration types.")
 
-project(${_project_name} C CXX)
+add_compile_options(-std=c++11)
 
-set(CMAKE_CXX_STANDARD 14)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
+project(${_project_name} C CXX)
 
 string(TOUPPER ${PROJECT_NAME} _pnu) 
 
