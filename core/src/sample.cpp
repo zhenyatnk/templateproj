@@ -1,4 +1,4 @@
-#include <templateproj/core/BaseExceptions.hpp>
+#include <templateproj/core/sample.hpp>
 
 namespace templateproj {
 namespace core {
